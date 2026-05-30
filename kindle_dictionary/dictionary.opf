@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0"
+         xmlns="http://www.idpf.org/2007/opf"
+         unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Sun Eater Glossary</dc:title>
+    <dc:creator opf:role="aut">Christopher Ruocchio</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId" opf:scheme="uuid">sun-eater-glossary</dc:identifier>
+    <meta name="primary-writing-mode" content="horizontal-lr"/>
+    <meta name="catalog_index_type" content="CL" />
+    <x-metadata>
+      <DictionaryInLanguage>en</DictionaryInLanguage>
+      <DictionaryOutLanguage>en</DictionaryOutLanguage>
+      <DefaultLookupIndex>default</DefaultLookupIndex>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="content" href="content.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="content"/>
+  </spine>
+  <guide>
+    <reference type="index" title="Index" href="content.html"/>
+  </guide>
+</package>
