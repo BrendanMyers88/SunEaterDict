@@ -2,6 +2,8 @@
 
 *AI was used in making this project*
 
+If you just want the `.mobi` file, you'll find it under Releases!
+
 A small Ruby project for building a Kindle-compatible dictionary from a JSON glossary of *Sun Eater* terms.
 
 The source glossary lives in `glossary.json`. The generated Kindle dictionary files live in `kindle_dictionary/`.
