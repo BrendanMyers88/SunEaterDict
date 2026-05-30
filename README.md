@@ -2,6 +2,8 @@
 
 *AI was used in making this project*
 
+This dictionary contains spoilers
+
 If you just want the `.mobi` file, you'll find it under Releases!
 
 A small Ruby project for building a Kindle-compatible dictionary from a JSON glossary of *Sun Eater* terms.
