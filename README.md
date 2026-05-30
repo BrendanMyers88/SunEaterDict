@@ -188,3 +188,5 @@ Generated files in `kindle_dictionary/` should be regenerated after every change
 The `.mobi` file should be rebuilt after regenerating `content.html` and `dictionary.opf`.
 
 I like to rename the `.mobi` file so it's unique in the Kindle's `documents/dictionaries` directory, ie `SunEater.mobi`
+
+Multi-word selection doesn't work unfortunately, if you have a way to get it working feel free to make a PR!
